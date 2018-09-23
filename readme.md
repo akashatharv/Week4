@@ -3,8 +3,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/akashatharv/Week4/badge.svg)](https://coveralls.io/github/akashatharv/Week4)
 ---
 ## Authors
-- Driver Akash Atharv
-- Navigator Nithish Sanjeev Kumar
+- Driver - Akash Atharv
+- Navigator - Nithish Sanjeev Kumar
 ## Overview
 
 Simple starter C++ project with:
