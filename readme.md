@@ -2,9 +2,13 @@
 [![Build Status](https://travis-ci.org/akashatharv/Week4.svg?branch=master)](https://travis-ci.org/akashatharv/Week4)
 [![Coverage Status](https://coveralls.io/repos/github/akashatharv/Week4/badge.svg)](https://coveralls.io/github/akashatharv/Week4)
 ---
-## Authors
-- Driver - Akash Atharv
-- Navigator - Nithish Sanjeev Kumar
+## Authors 
+Part 1:
+	- Driver - Akash Atharv
+	- Navigator - Nithish Sanjeev Kumar
+Part 2:
+	- Driver - RajendraMayavan
+	- Navigator - Chin-Po Tsai
 ## Overview
 
 Simple starter C++ project with:
