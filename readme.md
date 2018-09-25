@@ -4,11 +4,20 @@
 ---
 ## Authors 
 Part 1:
-	- Driver - Akash Atharv
-	- Navigator - Nithish Sanjeev Kumar
+	- Driver - Akash Atharv, Navigator Nithish Sanjeev Kumar
+
 Part 2:
-	- Driver - RajendraMayavan
-	- Navigator - Chin-Po Tsai
+	- Driver - RajendraMayavan,
+	  Navigator - Chin-Po Tsai
+
+
+## To Do List
+- [x] Submit Pull request to other pair
+- [x] Run cppcheck,cpplint
+- [x] Review build error on Travis
+- [x] Make the author section on readME more clarified
+- [ ] Update the UML Diagram according to implementation
+
 ## Overview
 
 Simple starter C++ project with:
