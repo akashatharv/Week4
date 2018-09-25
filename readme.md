@@ -16,7 +16,7 @@ Part 2:
 - [x] Run cppcheck,cpplint
 - [x] Review build error on Travis
 - [x] Make the author section on readME more clarified
-- [ ] Update the UML Diagram according to implementation
+- [x] Update the UML Diagram according to implementation
 
 ## Overview
 
