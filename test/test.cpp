@@ -28,7 +28,7 @@ TEST(pidCompute, should_pass) {
 TEST(gainEnquiry, should_pass) {
   PID obj;   /*!< Object of the class PID  */
   obj.inputGains(0.5,0.2,0.1);
-  EXPECT_EQ(0, obj.returnKp());
-  EXPECT_EQ(0, obj.returnKi());
-  EXPECT_EQ(0, obj.returnKd());
+  EXPECT_EQ(0.5, obj.returnKp());
+  EXPECT_EQ(0.2, obj.returnKi());
+  EXPECT_EQ(0.1, obj.returnKd());
 }
