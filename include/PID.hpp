@@ -22,7 +22,12 @@ class PID {
      double Kd;
 
  public:
+    /**@brief Constructor
+     * @param none
+     * @return none
+     */
     PID();
+
     /**@brief function to calculate the velocity to be provided
      * @param targetSetpoint, velocity
      * @return a double value to be fed to the controlled object
@@ -46,5 +51,9 @@ class PID {
      */
     virtual double returnKd();
 
+    /**@brief Destructor
+     * @param none
+     * @return none
+     */
     virtual ~PID();
 };

@@ -23,8 +23,27 @@ class levelAlarm : public PID {
   double levelMax;
 
  public:
+  /**@brief Constructor
+   * @param none
+   * @return none
+   */
   levelAlarm();
+
+  /**@brief function to implement level control
+   * @param none
+   * @return none
+   */
   void levelControl();
+
+  /**@brief function to get alarm flag
+   * @param none
+   * @return alarm value
+   */
   int returnAlarm();
+
+  /**@brief Destructor
+   * @param none
+   * @return none
+   */
   ~levelAlarm();
 };
