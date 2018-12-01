@@ -1,3 +1,11 @@
+/** @file main.cpp
+ *
+ * @brief Main function for google tests
+ *
+ * @author Nithish Sanjeev Kumar
+ * @copyright 2018 , Nithish Sanjeev Kumar All rights reserved
+
+*/
 #include <gtest/gtest.h>
 #include "gmock/gmock.h"
 

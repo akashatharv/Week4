@@ -3,9 +3,8 @@
  * @brief This class implements PID control algorithm to control
  *        a velocity value based on current velocity and a set point
  * 
- * @author Akash Atharv
- * @navigator Nithish Sanjeev Kumar
- * @copyright 2018 , Akash Atharv,Nithish Sanjeev Kumar All rights reserved
+ * @author Nithish Sanjeev Kumar
+ * @copyright 2018 , Nithish Sanjeev Kumar All rights reserved
 
 */
 
@@ -15,14 +14,14 @@
  */
 
 class PID {
-     private:
+ private:
     /** Identifiers for gains Kp,Ki and Kd
     */   
      double Kp;
      double Ki;
      double Kd;
 
-    public:
+ public:
     PID();
     /**@brief function to calculate the velocity to be provided
      * @param targetSetpoint, velocity
