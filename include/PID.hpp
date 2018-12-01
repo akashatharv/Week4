@@ -23,7 +23,8 @@ class PID {
      double Kd;
 
     public:
-    /**@brief function to calculate the velocity to be provided
+    PID();
+     /**@brief function to calculate the velocity to be provided
      * @param targetSetpoint, velocity
      * @return a double value to be fed to the controlled object
      */
@@ -32,7 +33,7 @@ class PID {
      * @param Kp,Ki,Kd
      * @return void
      */
-    void inputGains(const double inputKp, const double inputKi, const double inputKd);
+    void inputGains(double inputKp, double inputKi, double inputKd);
     /**@brief function to return the gain value Kp
      * @return a double value corresponding to gain value Kp
      */
@@ -45,4 +46,5 @@ class PID {
      * @return a double value corresponding to gain value Kp
      */
     double returnKd();
+    ~PID();
 };
