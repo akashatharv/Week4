@@ -1,5 +1,3 @@
-
-
 #include "level.hpp"
 #include "iostream"
 
