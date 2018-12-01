@@ -5,6 +5,7 @@ add_executable(
     main.cpp
     test.cpp
     ../app/PID.cpp
+    ../app/level.cpp
 )
 
 target_include_directories(cpp-test PUBLIC ../vendor/googletest/googletest/include 
